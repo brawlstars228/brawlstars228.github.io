@@ -1,0 +1,9 @@
+.post {
+  text-align: center;
+}
+
+
+.post__text {
+  width: 500px;
+  margin: 20px auto;
+}

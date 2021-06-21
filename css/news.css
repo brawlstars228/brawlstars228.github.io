@@ -1,0 +1,19 @@
+.post {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.post:nth-child(2) {
+  margin: 20px 0;
+}
+
+.post::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.post__image {
+  float: left;
+  margin-right: 25px;
+}
